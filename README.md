@@ -1,4 +1,4 @@
-# Chitchat 💬
+﻿# Chitchat ðŸ’¬
 
 *Enterprise-grade real-time messaging platform built for modern teams*
 
@@ -10,21 +10,21 @@
 [![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 
-## 🚀 Introduction
+## ðŸš€ Introduction
 
 Chitchat is a cutting-edge real-time messaging platform designed for the modern enterprise. Built with performance, security, and user experience at its core, Chitchat delivers seamless communication with features like instant messaging, typing indicators, read receipts, online user tracking, and responsive design. Whether for personal conversations or team collaboration, Chitchat keeps you connected with a modern and intuitive interface.
 
 ### Key Features
-- 🔐 **End-to-End Encryption** - Bank-level security for all communications
-- ⚡ **Lightning Fast** - Sub-millisecond message delivery
-- 👥 **Team Collaboration** - Advanced workspace management
-- 📱 **Cross-Platform** - Works seamlessly on all devices
-- 🎨 **Modern UI/UX** - Beautiful, intuitive interface
-- 🔄 **Real-Time Sync** - Instant message delivery and updates
+- ðŸ” **End-to-End Encryption** - Bank-level security for all communications
+- âš¡ **Lightning Fast** - Sub-millisecond message delivery
+- ðŸ‘¥ **Team Collaboration** - Advanced workspace management
+- ðŸ“± **Cross-Platform** - Works seamlessly on all devices
+- ðŸŽ¨ **Modern UI/UX** - Beautiful, intuitive interface
+- ðŸ”„ **Real-Time Sync** - Instant message delivery and updates
 
 ---
 
-## 🛠️ Technologies Used
+## ðŸ› ï¸ Technologies Used
 
 ### Frontend (Next.js Application)
 - **[Next.js 15](https://nextjs.org/)** - Full-stack React framework with App Router
@@ -45,29 +45,29 @@ Chitchat is a cutting-edge real-time messaging platform designed for the modern 
 
 ---
 
-## 🎯 Live Demo Screenshots
+## ðŸŽ¯ Live Demo Screenshots
 
 Experience Chitchat's powerful features through these interactive demonstrations:
 
-### 📱 Demo 1: Real-Time Messaging
+### ðŸ“± Demo 1: Real-Time Messaging
 ![Real-Time Messaging Demo](./client/demo/demo1.png)
 Experience lightning-fast message delivery and real-time synchronization across devices with instant typing indicators and message status updates.
 
-### 👥 Demo 2: Team Collaboration
+### ðŸ‘¥ Demo 2: Team Collaboration
 ![Team Collaboration Demo](./client/demo/demo2.png)
 See how teams can collaborate efficiently with workspace management, user presence indicators, and seamless group communication features.
 
-### 🔒 Demo 3: Security Features
+### ðŸ”’ Demo 3: Security Features
 ![Security Features Demo](./client/demo/demo3.png)
 Explore our end-to-end encryption, secure authentication, and advanced privacy controls that keep your conversations protected.
 
-### 📱 Demo 4: Mobile Experience
+### ðŸ“± Demo 4: Mobile Experience
 *Mobile demo screenshot coming soon*
 Test the responsive design and mobile-first approach that ensures perfect functionality across all screen sizes and devices.
 
 ---
 
-## 🚀 Quick Start
+## ðŸš€ Quick Start
 
 ### Prerequisites
 - **Node.js** (v18 or higher)
@@ -77,7 +77,7 @@ Test the responsive design and mobile-first approach that ensures perfect functi
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/ss_web_innovations/Chitchat.git
+git clone https://github.com/shivas1432/chitchat.git
 cd Chitchat
 ```
 
@@ -144,17 +144,17 @@ Visit `http://localhost:3000` to see Chitchat in action!
 
 ---
 
-## 📚 API Documentation
+## ðŸ“š API Documentation
 
 ### Socket.io Events
 
-#### Client → Server
+#### Client â†’ Server
 - `join-room` - Join a specific chat room
 - `send-message` - Send a message to a room
 - `typing` - Indicate user is typing
 - `stop-typing` - Stop typing indicator
 
-#### Server → Client  
+#### Server â†’ Client  
 - `receive-message` - Receive new messages
 - `user-joined` - User joined notification
 - `user-typing` - Typing indicator from other users
@@ -167,25 +167,25 @@ Visit `http://localhost:3000` to see Chitchat in action!
 
 ---
 
-## 🏗️ Architecture
+## ðŸ—ï¸ Architecture
 
 ```
-├── client/                 # Next.js Frontend
-│   ├── app/               # App Router pages
-│   ├── components/        # Reusable UI components
-│   ├── lib/              # Utility libraries
-│   └── prisma/           # Database schema
-│
-├── server/                # Express.js Backend  
-│   ├── src/              # Source code
-│   └── dist/             # Compiled JavaScript
-│
-└── README.md             # Project documentation
+â”œâ”€â”€ client/                 # Next.js Frontend
+â”‚   â”œâ”€â”€ app/               # App Router pages
+â”‚   â”œâ”€â”€ components/        # Reusable UI components
+â”‚   â”œâ”€â”€ lib/              # Utility libraries
+â”‚   â””â”€â”€ prisma/           # Database schema
+â”‚
+â”œâ”€â”€ server/                # Express.js Backend  
+â”‚   â”œâ”€â”€ src/              # Source code
+â”‚   â””â”€â”€ dist/             # Compiled JavaScript
+â”‚
+â””â”€â”€ README.md             # Project documentation
 ```
 
 ---
 
-## 🤝 Contributing
+## ðŸ¤ Contributing
 
 Contributions are welcome! Here's how you can help improve Chitchat:
 
@@ -203,27 +203,27 @@ Contributions are welcome! Here's how you can help improve Chitchat:
 
 ---
 
-## 📞 Contact & Support
+## ðŸ“ž Contact & Support
 
 **Developer:** [Kanugula Shivashanker](https://www.shivashanker.com)  
 **Role:** Full-Stack Developer | React, Node.js, Express, MySQL Expert  
 **Specialization:** Building dynamic web applications | Continuous learner | Open to collaboration
 
 ### Connect With Me
-- 💼 **LinkedIn:** [shivashanker-kanugula](https://www.linkedin.com/in/shivashanker-kanugula)
-- 💻 **GitHub:** [ss_web_innovations](https://github.com/ss_web_innovations)
-- 📧 **Email:** Contact via [website](https://www.shivashanker.com)
-- 💬 **Telegram:** [@helpme_coder](https://t.me/helpme_coder)
+- ðŸ’¼ **LinkedIn:** [shivashanker-kanugula](https://www.linkedin.com/in/shivashanker-kanugula)
+- ðŸ’» **GitHub:** [ss_web_innovations](https://github.com/ss_web_innovations)
+- ðŸ“§ **Email:** Contact via [website](https://www.shivashanker.com)
+- ðŸ’¬ **Telegram:** [@helpme_coder](https://t.me/helpme_coder)
 
 ---
 
-## 📄 License
+## ðŸ“„ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## ðŸ™ Acknowledgments
 
 - Built with modern web technologies
 - Inspired by the need for secure, real-time communication
@@ -233,8 +233,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**[⬆ Back to Top](#chitchat-)**
+**[â¬† Back to Top](#chitchat-)**
 
-Made with ❤️ by [Kanugula Shivashanker](https://www.shivashanker.com)
+Made with â¤ï¸ by [Kanugula Shivashanker](https://www.shivashanker.com)
 
 </div>
