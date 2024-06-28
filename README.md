@@ -14,7 +14,7 @@
 
 Chitchat is a cutting-edge real-time messaging platform designed for the modern enterprise. Built with performance, security, and user experience at its core, Chitchat delivers seamless communication with features like instant messaging, typing indicators, read receipts, online user tracking, and responsive design. Whether for personal conversations or team collaboration, Chitchat keeps you connected with a modern and intuitive interface.
 
-### Key Features
+### Core Features
 - ðŸ” **End-to-End Encryption** - Bank-level security for all communications
 - âš¡ **Lightning Fast** - Sub-millisecond message delivery
 - ðŸ‘¥ **Team Collaboration** - Advanced workspace management
@@ -238,3 +238,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Made with â¤ï¸ by [Kanugula Shivashanker](https://www.shivashanker.com)
 
 </div>
+
+
+## 🔧 Development Status
+
+- ✅ Real-time messaging
+- ✅ User authentication
+- ✅ Database integration
+- ✅ Responsive design
+- 🔄 File sharing (coming soon)
+- 🔄 Video calls (planned)
