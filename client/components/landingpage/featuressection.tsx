@@ -306,7 +306,7 @@ const FeaturesSection = () => {
                         />
                         <ChatMessage
                           sender="Product Team"
-                          message="Excellent! Let's schedule the release for Monday. Security review complete?"
+                          message="Excellent! Let&apos;s schedule the release for Monday. Security review complete?"
                           align="left"
                         />
                         <ChatMessage
@@ -316,7 +316,7 @@ const FeaturesSection = () => {
                         />
                         <ChatMessage
                           sender="Product Team"
-                          message="Perfect. I'll notify stakeholders. This will be our most secure release yet."
+                          message="Perfect. I&apos;ll notify stakeholders. This will be our most secure release yet."
                           align="left"
                         />
                       </div>
@@ -356,7 +356,7 @@ const FeaturesSection = () => {
           
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
             Seamless experience across all platforms and devices. Your conversations sync instantly, 
-            whether you're on desktop, mobile, or web.
+            whether you&apos;re on desktop, mobile, or web.
           </p>
           
           <div className="flex items-center justify-center gap-8 mb-12">
