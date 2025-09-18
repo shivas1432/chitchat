@@ -1,0 +1,60 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  name      String
+  image     String
+  email     String   @unique
+  createdAt DateTime @default(now())
+  provider  Provider
+
+  @@map("users")
+}
+
+model Message {
+  id          String   @id @default(uuid())
+  content     String   @db.Text
+  senderId    String
+  senderName  String
+  roomId      String
+  messageType String   @default("user") // 'user', 'demo', 'system'
+  createdAt   DateTime @default(now())
+
+  @@index([roomId])
+  @@index([senderId])
+  @@map("messages")
+}
+
+model Room {
+  id        String   @id @default(uuid())
+  name      String?
+  type      RoomType @default(PRIVATE)
+  createdBy String?
+  createdAt DateTime @default(now())
+
+  @@index([createdBy])
+  @@map("rooms")
+}
+
+enum Provider {
+  Google
+}
+
+enum RoomType {
+  PRIVATE
+  DEMO
+  GROUP
+}
